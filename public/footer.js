@@ -14,7 +14,7 @@ export default function Footer() {
         </a>
         {""} and is {""}
         <a
-          href="/"
+          href="https://github.com/marya479/weather-react"
           target="_blank"
           rel="noreferrer"
         >
@@ -22,7 +22,7 @@ export default function Footer() {
         </a>
         {""} and {""}
         <a
-          href="/"
+          href="https://fantastic-daifuku-ca2dd0.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
