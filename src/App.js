@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import "./App.css";
-import Weather from "./Weather";
+import Weather from "./weather.js";
 
 export default function App() {
   return (
