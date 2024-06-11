@@ -1,37 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Weather from "./Weather";
 import "./App.css";
-import Weather from "./weather.js";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <Weather defaultCity="Turnhout" />
+
         <footer>
-          This project was coded by{" "}
+          This project was coded by Marta Lucja
           <a
             href="https://www.linkedin.com/in/marta-lucja-weglinska-761603211/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            Marta Lucja,
+            Matt Delac
           </a>{" "}
-          open-sourced on{" "}
+          and is{" "}
           <a
             href="https://github.com/marya479/weather-react"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            GitHub
+            open-sourced on GitHub
           </a>{" "}
-          and hosted on{" "}
+          and{" "}
           <a
             href="https://fantastic-daifuku-ca2dd0.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            Netlify
+            hosted on Netlify
           </a>
         </footer>
       </div>
